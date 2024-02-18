@@ -1,0 +1,66 @@
+Project Description
+
+This project aims to develop an advanced, voice-command-operated drone tailored for 
+solo content creators who require a flexible, autonomous filming partner. The drone 
+will feature onboard AI for immediate command recognition and execution, with additional
+processing support from cloud services for more complex commands and functionalities. 
+It will offer a blend of object recognition and possibly a device-based tracking system 
+to follow the user or specific gestures accurately. The drone is designed to be compact, 
+portable, yet robust enough for both indoor and outdoor use, ensuring high-quality 4K video 
+recording with optimal frame rates and field of view. Safety features, including low battery 
+alerts and safe landing protocols, will be integral, along with the flexibility of manual and 
+app-based control for future updates. The project will also explore the feasibility of live streaming 
+capabilities as a forward-looking feature. Given the intensive processing and operational demands, 
+the drone will incorporate a high-capacity yet lightweight battery to balance flight time with 
+performance.
+
+Objectives
+
+1. **Develop a compact, reliable drone with advanced voice command capabilities** for easy, solo operation by content creators.
+2. **Implement both onboard and cloud-based AI processing** for command recognition and execution, covering common commands directly and offloading complex processing to the cloud.
+3. **Incorporate high-quality 4K camera technology** with superior stabilization for professional-grade video and photography.
+4. **Design the drone for both indoor and outdoor versatility,** ensuring stable flight and recording under various conditions.
+5. **Ensure safety through intelligent battery management,** including clear low battery warnings and automated safe landing procedures.
+6. **Offer both manual and app-based control options,** with considerations for extending flight time in manual mode.
+7. **Evaluate and implement the best storage solutions** for high-resolution content based on team recommendations and market standards.
+8. **Explore the potential for live streaming capabilities** as a value-added feature for real-time content sharing.
+
+###Mechanical Requirements
+
+1. Dimensions and Size:
+   - Ideal dimensions could be in the range of 250mm to 350mm diagonally (rotor to rotor), 
+   - Target weight, excluding the payload, could be around 700g to 1.5kg, 
+2. Payload Capacity:
+   - A payload capacity of up to 500g might be sufficient to support a high-quality camera and additional sensors without compromising flight performance.
+3. Top Speed and Flight Time:
+   - A top speed of around 40-50 km/h (25-30 mph) would offer a good balance for both dynamic outdoor shots and controlled indoor use.
+   - Targeting a flight time of around 20-30 minutes on a single charge, considering the balance between battery capacity and overall drone weight.
+4. Propulsion System:
+   - Brushless motors combined with high-efficiency propellers to ensure responsive, stable flight and maneuverability across a range of speeds and conditions.
+5. Material Selection:
+   - Utilization of lightweight, high-strength materials such as carbon fiber for the frame, combined with durable plastics for the body, to achieve the desired durability and weight.
+Specify the end material we might be using, this is also going to change IN THE FUTURE BASED ON FUNDING AND MARKET RESEARCH.
+
+### Electronic Requirements
+
+1. Voice Command Module:
+   - A high-quality, noise-canceling microphone system paired with a powerful, efficient processor capable of real-time voice command recognition and processing.
+
+2. Camera Specifications:
+   - A 4K resolution camera capable of at least 30fps, with a wide field of view (around 90° to 120°), and built-in stabilization (gimbal or electronic) for smooth video capture.
+3. Sensors for Navigation and Safety:
+   - Integration of GPS for outdoor navigation, along with ultrasonic and infrared sensors for indoor navigation and obstacle avoidance. An advanced return-to-home feature for low battery or loss of signal scenarios.
+4. Battery Specifications:
+   - A high-capacity LiPo battery (e.g., 4000-5000mAh) 
+5. Connectivity Options:
+   - Wi-Fi and Bluetooth for local control and data transmission, with the potential for LTE integration for remote operations and live streaming capabilities.
+
+### Coding Requirements
+1. **Firmware and Flight Control Software:**
+   - The software must support autonomous flight modes, voice command recognition, obstacle avoidance, and dynamic tracking. Integration with onboard and cloud-based processing for advanced commands and functionalities.
+2. **Voice Command Processing:**
+   - The AI for voice recognition should be capable of understanding and executing a wide range of commands in real-time, with the flexibility to learn and adapt to the user's voice and commands over time.
+3. **User Interface and Control Options:**
+   - A user-friendly manual control receiver for direct operation, with a seamless switch between manual and voice command modes. An intuitive app interface for advanced settings, live view, and additional controls.
+4. **Data Management and Storage:**
+   - Onboard storage of at least 128GB to accommodate high-resolution video and photos, with support for expandable storage via SD cards and cloud storage options for additional backup and easy access to content.
